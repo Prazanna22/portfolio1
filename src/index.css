@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 0px;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 0px;
+}
+
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+
+
+#custom-swiper .swiper-button-prev,
+#custom-swiper .swiper-button-next {
+  --swiper-navigation-size: 25px;
+  margin: -30px -10px 0 -10px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 50%;
+
+}
+
+#custom-swiper .swiper-pagination-bullet {
+  background-color: #000000;
+}
+
+#custom-swiper .swiper-pagination-bullet-active {
+  background-color: #000000;
+}
+
