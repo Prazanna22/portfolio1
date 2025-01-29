@@ -43,7 +43,7 @@ export const Project = () => {
                                 <div className="flex flex-col justify-center items-center rounded-lg bg-[#fff] p-5 hover:shadow-custom-white border-2 border-black">
                                     <img src={coffee} alt="" className='w-14 md:w-20 ' />
                                     <h1 className=" font-semibold text-xl mb-4 mt-3 ">Live Weather App</h1>
-                                    <p className=" font-normal text-sm text-justify md:text-md">A dynamic live weather app built with React and the OpenWeather
+                                    <p className=" font-normal text-sm text-justify md:text-md ">A dynamic live weather app built with React and the OpenWeather
                                         API provides real-time weather updates, including temperature,
                                         humidity, and conditions. </p>
                                     <div className="flex gap-5  lg:flex-row my-10 text-center">
@@ -59,7 +59,7 @@ export const Project = () => {
                                 <div className="flex flex-col justify-center items-center rounded-lg bg-[#fff] p-5 hover:shadow-custom-white border-2 border-black">
                                     <img src={news} alt="" className='w-14 md:w-20 ' />
                                     <h1 className=" font-semibold text-xl mb-4 mt-3 ">News Aggregator App</h1>
-                                    <p className=" font-normal text-sm text-justify md:text-md">Created a real-time news aggregator app using React, TypeScript, and Tailwind CSS. Integrated a public news API to display articles from multiple categories,with search functionality.</p>
+                                    <p className=" font-normal text-sm text-justify md:text-md">Created a real-time news aggregator app using React, Redux, TypeScript and Tailwind CSS. Integrated a public news API to display articles from multiple categories,with search functionality.</p>
                                     <div className="flex gap-5  lg:flex-row my-7 text-center">
                                         <a className="hover:text-white font-medium border-[2px] border-[#000] hover:bg-[#000] py-1 md:px-8 px-6 border-3  md:my-3
                                     bg-transparent  text-[#000]" href="https://github.com/Prazanna22/News-App">Github</a>
@@ -97,20 +97,6 @@ export const Project = () => {
                                     </div>
                                 </div>
                             </SwiperSlide>
-
-                            <SwiperSlide>
-                                <div className="flex flex-col justify-center items-center rounded-lg bg-[#fff] p-5 hover:shadow-custom-white border-2 border-black">
-                                    <img src={hearing} alt="" className='w-14 md:w-20 ' />
-                                    <h1 className=" font-semibold text-xl mb-4 mt-3 ">Hear Loss Prediction</h1>
-                                    <p className=" font-normal text-sm text-justify md:text-md">Predicted hearing loss using machine learning techniques in Anaconda, focusing on data analysis and model development. Collected and preprocessed data, built and trained machine learning models, and evaluated model performance to ensure accurate predictions.</p>
-                                    <div className="flex gap-5  lg:flex-row my-10 text-center">
-    
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-
-
-                            
                             <SwiperSlide>
                                 <div className="flex flex-col justify-center items-center rounded-lg bg-[#fff] p-5 hover:shadow-custom-white border-2 border-black">
                                     <img src={star} alt="" className='w-14 md:w-20 ' />
@@ -120,6 +106,16 @@ export const Project = () => {
                                     <div className="flex gap-5  lg:flex-row my-7 text-center">
                                         <a className="hover:text-white font-medium border-[2px] border-[#000] hover:bg-[#000] py-1 md:px-8 px-6 border-3  md:my-3
                                     bg-transparent  text-[#000]" href="https://github.com/Prazanna22/Gemini-clone">Github</a>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="flex flex-col justify-center items-center rounded-lg bg-[#fff] p-5 hover:shadow-custom-white border-2 border-black">
+                                    <img src={hearing} alt="" className='w-14 md:w-20 ' />
+                                    <h1 className=" font-semibold text-xl mb-4 mt-3 ">Hear Loss Prediction</h1>
+                                    <p className=" font-normal text-sm text-justify md:text-md">Predicted hearing loss using machine learning techniques in Anaconda, focusing on data analysis and model development. Collected and preprocessed data, built and trained machine learning models, and evaluated model performance to ensure accurate predictions.</p>
+                                    <div className="flex gap-5  lg:flex-row my-10 text-center">
+    
                                     </div>
                                 </div>
                             </SwiperSlide>

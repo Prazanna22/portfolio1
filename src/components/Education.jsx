@@ -5,7 +5,7 @@ export const Education = () => {
         <>
             {/* Large screens */}
             <div className="hidden sm:block py-14" id="2">
-                <h1 className="font-extrabold text-5xl text-[#000] my-14 uppercase text-center" >Education</h1>
+                <h1 className="font-extrabold text-5xl text-[#000] my-14  uppercase text-center" >EDCATION</h1>
                 <div className="max-w-7xl mx-auto w-full grid grid-cols-9" >
 
                     {/* stack-1 */}
@@ -59,11 +59,12 @@ export const Education = () => {
             </div>
 
             {/* Small screens */}
-            <div className="block sm:hidden" id="2">
+            <div className="hidden" id="2">
                 <h1 className="text-center font-bold text-5xl text-[#000] pb-10">Education</h1>
                 <div className="space-y-10 px-4">
 
                     {/* stack-1 */}
+                    
                     <div className="flex items-center">
                         <div className="w-1 h-full bg-[#000]"></div>
                         <div className="h-full w-full bg-[#000] rounded-md px-4 py-4 text-white">

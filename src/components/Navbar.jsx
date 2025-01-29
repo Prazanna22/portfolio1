@@ -15,7 +15,7 @@ export const Navbar = () => {
               <li><a href="#4" className='text-black hover:text-[#000]'>Projects</a></li>
             </ul>
             <div className="list-none ">
-              <li><a href="#5" className='text-black hover:text-[#000] py-1 px-3 border border-[#000]'>Let's Talk</a></li>
+              <li><a href="#5" className='text-white hover:text-[#000] hover:bg-white py-1 px-3 border bg-black border-[#000]'>Let's Talk</a></li>
             </div>
           </nav>
         </div>

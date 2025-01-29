@@ -1,5 +1,6 @@
 //import dp from "../assets/dp1.png";
 import about from "../assets/about.jpg";
+import resume from "../assets/resume.pdf"
 import { Contact } from "./Contact";
 import { Education } from "./Education";
 import { Project } from "./Project";
@@ -25,15 +26,15 @@ export const Home = () => {
                     <div className="py-0" id="1">
                         <div className="grid grid-cols-1  md:grid-cols-2 gap-1  justify-center items-center" >
                             <div className=" w-full flex flex-col items-center sm:items-start justify-center ">
-                                <h1 className="font-extrabold text-5xl text-[#000] my-1 uppercase text-center">About me</h1>
-                                <p className="font-normal my-2 md:my-8  text-justify text-md md:text-xl  leading-[30px] md:leading-[40px] ">Hey there! I’m Durga Prasanna U, a frontend developer in the making, with a passion
+                                <h1 className="font-extrabold text-5xl text-[#000] mb-5 md:mb-0 uppercase text-center">About me</h1>
+                                <p className="font-normal my-6 md:my-8  text-justify text-sm   md:text-md  leading-[30px] md:leading-[40px] ">Hey there! I’m Durga Prasanna U, a frontend developer in the making, with a passion
                                     for creating cool and functional web interfaces. I love working with HTML, CSS, JavaScript, and React.js to bring ideas to life and make
                                     websites look great on any device.
                                     I’m currently finishing up my Bachelor’s in Computer Science and have worked on some fun projects like a Coffee Shop E-Com website  and an
                                     News aggregator app. I’m always learning something new and looking to improve my skills, whether it's through coding or collaborating with others..</p>
-                                <button className="text-white font-medium border-[2px] border-[#000] bg-[#000] py-1.5 px-10 hover:border-3  hover:bg-transparent hover:text-[#000]">Resume</button>
+                                <button className="text-white font-medium border-[2px] border-[#000] bg-[#000] py-1.5 my-6 px-10 hover:border-3  hover:bg-transparent hover:text-[#000]"><a href="" download={resume}>Resume</a></button>
                             </div>
-                            <div className=" w-full  flex items-center justify-center py-4 md:py-0  mb-20">
+                            <div className=" w-full  flex items-center justify-center py-4 md:py-0  mb-10">
                                 <img src={about} alt="" className="w-[350px]  " />
                             </div>
                         </div>
