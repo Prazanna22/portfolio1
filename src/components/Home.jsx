@@ -16,7 +16,7 @@ export const Home = () => {
                         <div className="pt-10 pb-10">
                             <div className=" flex items-center flex-col justify-center text-[#000]  ">
                                 <h1 className="font-extrabold text-[60px] sm:text-[80px] lg:text-[120px] md:text-[120px] text-center ">Durga Prasanna U</h1>
-                                <p className="py-14 font-normal  text-xl sm:text-2xl">I am Aspiring Frontend Developer</p>
+                                <p className="py-14 font-normal  text-xl sm:text-2xl">A Aspiring Frontend Developer</p>
                                 <a href="#1" id="1"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-10">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                                 </svg></a>
@@ -27,7 +27,7 @@ export const Home = () => {
                         <div className="grid grid-cols-1  md:grid-cols-2 gap-1  justify-center items-center" >
                             <div className=" w-full flex flex-col items-center sm:items-start justify-center ">
                                 <h1 className="font-extrabold text-5xl text-[#000] mb-5 md:mb-0 uppercase text-center">About me</h1>
-                                <p className="font-normal my-6 md:my-8  text-justify text-sm   md:text-md  leading-[30px] md:leading-[40px] ">Hey there! I’m Durga Prasanna U, a frontend developer in the making, with a passion
+                                <p className="font-normal my-6 md:my-8  text-justify text-md  md:text-md  leading-[30px] md:leading-[40px] ">Hey there! I’m Durga Prasanna U, a frontend developer in the making, with a passion
                                     for creating cool and functional web interfaces. I love working with HTML, CSS, JavaScript, and React.js to bring ideas to life and make
                                     websites look great on any device.
                                     I’m currently finishing up my Bachelor’s in Computer Science and have worked on some fun projects like a Coffee Shop E-Com website  and an
