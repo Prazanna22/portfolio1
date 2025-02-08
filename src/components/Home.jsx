@@ -16,7 +16,7 @@ export const Home = () => {
                         <div className="pt-10 pb-10">
                             <div className=" flex items-center flex-col justify-center text-[#000]  ">
                                 <h1 className="font-extrabold text-[60px] sm:text-[80px] lg:text-[120px] md:text-[120px] text-center ">Durga Prasanna U</h1>
-                                <p className="py-14 font-normal  text-xl sm:text-2xl">A Aspiring Frontend Developer</p>
+                                <p className="py-14 font-normal  text-xl sm:text-2xl">Aspiring Frontend Developer</p>
                                 <a href="#1" id="1"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-10">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                                 </svg></a>
