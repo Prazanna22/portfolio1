@@ -64,8 +64,8 @@ export const Project = () => {
                                     Integrated a news API to display articles from multiple categories,with search functionality.
                                     </p>
                                     <div className="flex gap-5  lg:flex-row my-10 text-center">
-                                        {/* <a className="text-white font-medium border-[2px] border-[#000] bg-[#000] py-1 md:px-8 px-6 hover:border-3  
-                                    hover:bg-transparent hover:text-[#000] " href="https://durzan.netlify.app/">View</a> */}
+                                        <a className="text-white font-medium border-[2px] border-[#000] bg-[#000] py-1 md:px-8 px-6 hover:border-3  
+                                    hover:bg-transparent hover:text-[#000] " href="https://newslyapp111.netlify.app/">View</a>
                                         <a className="hover:text-white font-medium border-[2px] border-[#000] hover:bg-[#000] py-1 md:px-8 px-6 border-3  
                                     bg-transparent  text-[#000]" href="https://github.com/Prazanna22/News-App">Github</a>
                                     </div>

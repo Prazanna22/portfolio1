@@ -20,62 +20,73 @@ export const Skills = () => {
     return (
         <>
             <div className="py-10 " id='3'>
-                <h1 className="font-extrabold text-5xl text-[#000] my-14 uppercase text-center" >Skill Set</h1>
+                <h1 className="font-extrabold text-5xl text-[#000] my-14 uppercase text-center" >My Skills</h1>
                 <div className='py-2 md:py-4'>
-                    <h1 className="font-bold sm:text-2xl text-2xl text-black text-center md:text-left">Languages</h1>
-                    <div className="grid grid-cols-3  md:grid-cols-6 gap-4 px-5 md:px-20 py-8">
-                        <div className="flex gap-2 items-center  p-2 flex-col">
+                    {/* <h1 className="font-bold sm:text-2xl text-2xl text-black text-center md:text-left">Languages</h1> */}
+                    <div className="grid grid-cols-3  md:grid-cols-5 gap-4 px-5 md:px-20 py-8">
+                        <div className="flex gap-4 items-center  p-4 flex-col">
                             <img src={java} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>Java</h1>
                         </div>
-                        <div className="flex gap-2 items-center  p-2 flex-col">
+                        <div className="flex gap-4 items-center p-4 flex-col">
                             <img src={python} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>Python</h1>
                         </div>
-                        <div className="flex gap-2 items-center  p-2 flex-col">
+                        <div className="flex gap-4 items-center p-4 flex-col">
                             <img src={html} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>Html</h1>
                         </div>
-                        <div className="flex gap-2 items-center  p-2 flex-col">
+                        <div className="flex gap-4 items-center p-4 flex-col">
                             <img src={css} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>Css</h1>
                         </div>
-                        <div className="flex gap-2 items-center  p-2 flex-col">
+                        <div className="flex gap-4 items-center p-4 flex-col">
                             <img src={js} alt="" className="w-10 sm:w-12" />
-                        </div>
-                        <div className="flex gap-2 items-center  p-2 flex-col">
-                            <img src={typescript} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>Javascript</h1>
                         </div>
                     </div>
-                </div>
-                <div className="py-2 md:py-4">
-                    <h1 className="font-bold sm:text-2xl text-2xl text-black text-center md:text-left">Frameworks & Libraries</h1>
-                    <div className="grid grid-cols-3  md:grid-cols-6 gap-4 px-5 md:px-20 py-8">
-                        <div className="flex gap-2 items-center  p-2 flex-col">
+                    <div className="grid grid-cols-3  md:grid-cols-4 gap-4 px-5 md:px-20 md:py-8 ">
+                        <div className="flex gap-4 items-center p-4 flex-col">
                             <img src={react} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>React.Js</h1>
                         </div>
-                        <div className="flex gap-2 items-center  p-2 flex-col">
+                        <div className="flex gap-4 items-center p-4 flex-col">
                             <img src={redux} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>Redux</h1>
                         </div>
-                        <div className="flex gap-2 items-center  p-2 flex-col">
+                        <div className="flex gap-4 items-center p-4 flex-col">
                             <img src={tailwind} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>Tailwind Css</h1>
                         </div>                     
-                        
-
+                        <div className="flex gap-4 items-center p-4 flex-col">
+                            <img src={typescript} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>Typescript</h1>
+                        </div>
                     </div>
+                    <div className="grid grid-cols-3 md:grid-cols-3 justify-center gap-4 px-5 md:px-20  md:py-8">
+                        <div className="flex gap-4 items-center p-4 flex-col">
+                            <img src={git} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>Git</h1>
+                        </div>
+                        <div className="flex gap-4 items-center p-4 flex-col">
+                            <img src={github} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>Github</h1>
+                        </div>
+                        <div className="flex gap-4 items-center p-4 flex-col">
+                            <img src={database} alt="" className="w-10 sm:w-12" />
+                            <h1 className='font-medium'>MySql</h1>
+                        
+                        </div>
+                    </div>
+
                 </div>
                 <div className="py-2 md:py-4">
-                    <h1 className="font-bold sm:text-2xl text-2xl text-black text-center md:text-left">Database & Tools</h1>
-                    <div className="grid grid-cols-3 md:grid-cols-6 gap-4 px-5 md:px-20  py-8">
-
-
-                        <div className="flex gap-2 items-center  p-2 flex-col">
-                            <img src={git} alt="" className="w-10 sm:w-12" />
-                        </div>
-                        <div className="flex gap-2 items-center  p-2 flex-col">
-                            <img src={github} alt="" className="w-10 sm:w-12" />
-                        </div>
-                        <div className="flex gap-2 items-center  p-2 flex-col">
-                            <img src={database} alt="" className="w-10 sm:w-12" />
-                        
-                        </div>
-                    </div>
+                    {/* <h1 className="font-bold sm:text-2xl text-2xl text-black text-center md:text-left">Frameworks & Libraries</h1> */}
+                   
+                </div>
+                <div className="py-2 md:py-4 ">
+                    {/* <h1 className="font-bold sm:text-2xl text-2xl text-black text-center md:text-left">Database & Tools</h1> */}
+                    
                 </div>
 
             </div>

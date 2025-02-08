@@ -1,6 +1,6 @@
 //import dp from "../assets/dp1.png";
 import about from "../assets/about.jpg";
-import resume from "../assets/resume.pdf"
+
 import { Contact } from "./Contact";
 import { Education } from "./Education";
 import { Project } from "./Project";
@@ -32,7 +32,7 @@ export const Home = () => {
                                     websites look great on any device.
                                     I’m currently finishing up my Bachelor’s in Computer Science and have worked on some fun projects like a Coffee Shop E-Com website  and an
                                     News aggregator app. I’m always learning something new and looking to improve my skills, whether it's through coding or collaborating with others..</p>
-                                <button className="text-white font-medium border-[2px] border-[#000] bg-[#000] py-1.5 my-6 px-10 hover:border-3  hover:bg-transparent hover:text-[#000]"><a href="" download={resume}>Resume</a></button>
+                                <button className="text-white font-medium border-[2px] border-[#000] bg-[#000] py-1.5 my-6 px-10 hover:border-3  hover:bg-transparent hover:text-[#000]"><a href="/resume.pdf" download="resume.pdf">Resume</a></button>
                             </div>
                             <div className=" w-full  flex items-center justify-center py-4 md:py-0  mb-10">
                                 <img src={about} alt="" className="w-[350px]  " />
