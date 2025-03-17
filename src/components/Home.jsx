@@ -1,21 +1,48 @@
 //import dp from "../assets/dp1.png";
+import { useState } from "react";
 import about from "../assets/about.jpg";
 
 import { Contact } from "./Contact";
 import { Education } from "./Education";
 import { Project } from "./Project";
- import { Skills } from "./Skills";
+import { Skills } from "./Skills";
 
 export const Home = () => {
-    
+    const name = "Durga Prasanna U";
+  const [flipped, setFlipped] = useState(Array(name.length).fill(false));
+
+  const triggerWaveFlip = () => {
+    name.split("").forEach((_, i) => {
+      setTimeout(() => {
+        setFlipped((prev) => {
+          const updated = [...prev];
+          updated[i] = true;
+          return updated;
+        });
+      }, i * 100); // 100ms delay between each flip
+    });
+  };
+
     return (
         <>
-            <div className="max-w-full"  id="0">
+            <div className="max-w-full" id="0">
                 <div className=" bg-[#fff] px-5 sm:px-10 lg:px-20 xl:px-36 ">
                     <div className="py-10 md:py-20">
                         <div className="pt-10 pb-10">
                             <div className=" flex items-center flex-col justify-center text-[#000]  ">
-                                <h1 className="font-extrabold text-[60px] sm:text-[80px] lg:text-[120px] md:text-[120px] text-center ">Durga Prasanna U</h1>
+                            <h1 className="font-extrabold text-[60px] sm:text-[80px] lg:text-[120px] md:text-[120px] text-center">
+      {name.split("").map((char, i) => (
+        <span
+          key={i}
+          onMouseEnter={triggerWaveFlip}
+          className={`crosshatch-base transition-all duration-500 ${
+            flipped[i] ? "crosshatch-flipped" : ""
+          }`}
+        >
+          {char === " " ? "\u00A0" : char}
+        </span>
+      ))}
+    </h1>
                                 <p className="py-14 font-normal  text-xl sm:text-2xl">Aspiring Frontend Developer</p>
                                 <a href="#1" id="1"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-10">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
