@@ -5,7 +5,7 @@ export const Education = () => {
         <>
             {/* Large screens */}
             <div className="hidden sm:block py-14" id="2">
-                <h1 className="font-extrabold text-5xl text-[#000] my-14  uppercase text-center" >EDCATION</h1>
+                <h1 className="font-extrabold text-5xl text-[#000] my-14  uppercase text-center" >EDUCATION</h1>
                 <div className="max-w-7xl mx-auto w-full grid grid-cols-9" >
 
                     {/* stack-1 */}
