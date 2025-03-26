@@ -11,7 +11,7 @@ export const Contact = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_dcieig6', 'template_wra9j8m', form.current, 'oB-m0khulFwQ6EjMx') // Use the public key directly as a string
+            .sendForm('service_cjpw6ha', 'template_re57kda', form.current, 'WjyO23qy6hsH3-Z2f') // Use the public key directly as a string
             .then(
                 () => {
                     console.log('SUCCESS!');
@@ -38,9 +38,9 @@ export const Contact = () => {
                     <div className="flex flex-col items-center" >
                         <form ref={form} onSubmit={sendEmail} className="flex flex-col ">
                             {/* <label className='text-white font-normal my-2'>Name</label> */}
-                            <input type="text" name="from_name" placeholder='Name' className="bg-[#000] text-white outline-none py-2 pr-20 md:pr-36 xl:pr-72 pl-3 my-5 " />
+                            <input type="text" name="name" placeholder='Name' className="bg-[#000] text-white outline-none py-2 pr-20 md:pr-36 xl:pr-72 pl-3 my-5 " />
                             {/* <label className='text-white font-normal my-2'>Email</label> */}
-                            <input type="email" name="from_email" placeholder='email' className="bg-[#000] text-white outline-none py-2 pr-20 md:pr-36 xl:pr-72 pl-3  my-5" />
+                            <input type="email" name="mail" placeholder='email' className="bg-[#000] text-white outline-none py-2 pr-20 md:pr-36 xl:pr-72 pl-3  my-5" />
                             {/* <label className='text-white font-normal my-2'>Message</label> */}
                             <textarea name="message" placeholder="message" className="bg-[#000] text-white outline-none py-2 pr-20 md:pr-36 xl:pr-72 pl-3  my-5" />
                             <button type="submit" value="Send" className=" my- text-white font-medium border-[2px] border-[#000] bg-[#000] py-1.5 px-10 hover:border-3  hover:bg-transparent hover:text-[#000]" >Submit</button>
