@@ -78,3 +78,8 @@ html {
   transform: rotateX(360deg);
 }
 
+a:hover ~ .custom-cursor,
+button:hover ~ .custom-cursor {
+  transform: scale(1.5);
+  background-color: #ff0000; /* turns red */
+}
