@@ -4,112 +4,84 @@ import { Contact } from "./Contact";
 import { Education } from "./Education";
 import { Project } from "./Project";
 import { Skills } from "./Skills";
+import { About } from "./About";
 
 export const Home = () => {
-  const [text, setText] = useState("");
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [loopNum, setLoopNum] = useState(0);
-  const [typingSpeed, setTypingSpeed] = useState(150);
-
-  const titles = [
-    "Frontend Developer",
-    "Full Stack Enthusiast",
-    "React Developer",
-    "Creative Coder"
-  ];
-
-  useEffect(() => {
-    const handleType = () => {
-      const i = loopNum % titles.length;
-      const fullText = titles[i];
-
-      setText(isDeleting
-        ? fullText.substring(0, text.length - 1)
-        : fullText.substring(0, text.length + 1)
-      );
-
-      setTypingSpeed(isDeleting ? 75 : 150);
-
-      if (!isDeleting && text === fullText) {
-        setTimeout(() => setIsDeleting(true), 1000);
-      } else if (isDeleting && text === '') {
-        setIsDeleting(false);
-        setLoopNum(loopNum + 1);
-      }
-    };
-
-    const timer = setTimeout(handleType, typingSpeed);
-    return () => clearTimeout(timer);
-  }, [text, isDeleting, loopNum, titles]);
-
 
   return (
     <>
-      <div className="max-w-full px-5 sm:px-10 md:px-20" id="0">
+      <div className="max-w-full" id="0">
         <div className=" bg-[#ffffff]  ">
-          <div className="py-10 md:py-20 px-5 sm:px-10 md:px-20">
-            <div className="pt-10 pb-10">
-              <div className=" flex items-center flex-col justify-center text-[#000000]  ">
-                <h2 className="text-lg uppercase tracking-widest mb-4 text-gray-700">HELLO, I'M</h2>
-
-                <h1 className="font-extrabold text-[56px] uppercase md:tracking-normal sm:text-[80px] lg:text-[100px]  md:text-[100px] text-center crosshatch-flipped">Durga prasanna U </h1>
-                {/* <h1 className="font-extrabold text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-center">Durga Prasanna U</h1> */}
-                <p className="py-10 font-normal text-xl sm:text-2xl text-center text-black min-h-[60px]">
-                  <span className="font-medium">{"<> "}</span>
-                  {text}
-                  <span className="animate-pulse">|</span>
-                  <span className="font-medium">{" </>"}</span>
-                </p>
-                <a href="#1" id="1"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-10">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                </svg></a>
-              </div>
+          <section className="relative min-h-screen flex flex-col justify-start md:justify-center py-10 md:py-10 items-center bg-white overflow-hidden">
+            {/* Animated background pattern */}
+            <div className="absolute inset-0 opacity-5">
+              <div className="absolute top-0 left-0 w-full h-full pattern-dots pattern-black pattern-size-4 pattern-opacity-100"></div>
             </div>
-          </div>
-          <section id="about" className="py-16 md:py-24 px-5 sm:px-10 md:px-20">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-              <div className="order-2 md:order-1">
-                <h1 className="font-extrabold text-4xl text-black mb-6 uppercase">About Me</h1>
-                <div className="h-1 w-16 bg-black mb-8"></div>
-                <p className="font-normal text-gray-700 text-justify text-md md:text-lg leading-relaxed lg:leading-10 mb-8">
-                  Hey there! I'm Durga Prasanna U, a frontend developer in the making with a passion
-                  for creating cool and functional web interfaces. I love working with HTML, CSS, JavaScript,
-                  and React.js to bring ideas to life and make websites look great on any device.
-                </p>
-                <p className="font-normal text-gray-700 text-justify text-md md:text-lg leading-relaxed lg:leading-10 mb-8">
-                  I'm currently finishing up my Bachelor's in Computer Science and have worked on some
-                  fun projects like a Coffee Shop E-Com website and a News aggregator app. I'm always
-                  learning something new and looking to improve my skills, whether it's through coding
-                  or collaborating with others.
-                </p>
-                <h1 className="transition-all duration-1000 ease-out transform "></h1>
-                <button className="text-white font-medium border-2 border-black bg-black py-2 px-8 hover:bg-white hover:text-black transition-all duration-300">
-                  <a href="U.Durga_Prasanna.pdf" download="U.Durga_Prasanna.pdf"> Resume</a>
-                </button>
 
-              </div>
+            {/* Floating elements */}
+            <div className="absolute top-20 left-10 w-6 h-6 rounded-full bg-black opacity-10 animate-float"></div>
+            <div className="absolute top-1/3 right-16 w-8 h-8 border border-black opacity-10 animate-float-slow"></div>
+            <div className="absolute bottom-1/4 left-20 w-10 h-10 border border-black opacity-5 animate-float-reverse"></div>
 
+            {/* Binary code decorative elements */}
+            <div className="absolute top-28 right-28 text-xs opacity-10 font-mono select-none pointer-events-none">
+              01000100 01010101 01010010 01000111 01000001
+            </div>
+            <div className="absolute bottom-40 left-24 text-xs opacity-10 font-mono select-none pointer-events-none">
+              01010000 01010010 01000001 01010011 01000001 01001110 01001110 01000001
+            </div>
 
+            <div className="max-w-7xl mx-auto text-center text-[#000000] relative z-10  px-5 ">
+              <h2 className="text-lg uppercase tracking-widest text-gray-700 animate-fade-in">
+                HELLO, I'M
+              </h2>
 
-              <div className="order-1 md:order-2 flex justify-center md:justify-end">
-                <div className="relative">
-                  <div className="absolute -inset-4 border-2 border-black rounded-lg"></div>
-                  <img
-                    src={about}
-                    alt="Durga Prasanna"
-                    className="relative w-full max-w-md rounded-lg z-10"
-                  />
+              {/* Animated name with typing effect */}
+              <h1 className="font-extrabold text-[56px] py-4 md:py-2 uppercase sm:text-[80px] md:text-[100px] lg:text-[112px] crosshatch-flipped animate-fade-in-delay">
+                Durga Prasanna U
+              </h1>
+
+              <h2 className="text-base md:text-lg uppercase tracking-widest my-5 md:my-10 text-black animate-fade-in-delay">
+                Full-time dreamer, part-time debugger.
+                <br />
+                Somehow still building cool stuff.
+              </h2>
+
+              <h1 className="transition-all duration-1000 ease-out transform "></h1>
+              <button className="text-white font-medium border-2 border-black bg-black py-2 my-6 px-8 hover:bg-white hover:text-black transition-all duration-300 animate-fade-in-delay">
+                <a href="U.Durga_Prasanna.pdf" download="U.Durga_Prasanna.pdf"> Resume</a>
+              </button>
+
+              {/* Enhanced scroll indicator */}
+              <a href="#1" className="group">
+                <div className="w-6 h-10 border-2 border-black rounded-full mt-8 flex justify-center items-start mx-auto animate-bounce cursor-pointer group-hover:scale-110 transition-transform">
+                  <div className="w-1 h-3 bg-black rounded-full mt-1 animate-pulse group-hover:bg-gray-600 transition-colors"></div>
                 </div>
-              </div>
+                <p className="text-xs mt-2 opacity-0 group-hover:opacity-70 transition-opacity">Explore more</p>
+              </a>
             </div>
+
+            {/* Decorative corner elements */}
+            <div className="absolute top-0 left-0 w-24 h-24">
+              <div className="absolute top-4 left-4 w-16 h-16 border-t-2 border-l-2 border-black opacity-20"></div>
+            </div>
+            <div className="absolute bottom-0 right-0 w-24 h-24">
+              <div className="absolute bottom-4 right-4 w-16 h-16 border-b-2 border-r-2 border-black opacity-20"></div>
+            </div>
+
+            
           </section>
+
+
+
+          <About />
           <Education />
           <Skills />
           <Project />
           <Contact />
 
-        </div>
-      </div>
+        </div >
+      </div >
 
     </>
   );

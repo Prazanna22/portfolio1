@@ -1,25 +1,24 @@
 import React from 'react'
 
 export const Navbar = () => {
-  return (
-    <>
-      <div className="bg-[#fff] hidden md:block sticky top-0 z-20 ">
-        <div className="">
-          <nav className='flex justify-between px-5 sm:px-24 lg:px-36 py-5'>
-
-            <ul className='flex gap-10 font-semibold'>
-              <li><a href="#0" className='text-black hover:text-[#000]'>Home</a></li>
-              <li><a href="#1" className='text-black hover:text-[#000]'>About</a></li>
-              <li><a href="#2" className='text-black hover:text-[#000]'>Eduction</a></li>
-              <li><a href="#3" className='text-black hover:text-[#000]'>Skills</a></li>
-              <li><a href="#4" className='text-black hover:text-[#000]'>Projects</a></li>
-            </ul>
-            <div className="list-none ">
-              <li><a href="#5" className='text-white hover:text-[#000] hover:bg-white py-1 px-3 border bg-black border-[#000]'>Let's Talk</a></li>
-            </div>
-          </nav>
+  return (<>
+    <header className="sticky top-0 z-20 bg-white/80 backdrop-blur-md border-b border-gray-200 px-10 md:px-20">
+      <div className="max-w-7xl mx-auto flex justify-between items-center py-5 ">
+        {/* Logo / Branding */}
+        <div className="text-lg uppercase tracking-widest  text-black">
+          .Portfolio
         </div>
+
+        {/* Call to action */}
+        <a
+          href="#5"
+          className="hidden md:block text-white font-medium border border-black bg-black py-1.5 px-4 rounded-md hover:bg-white hover:text-black transition-all duration-300"
+        >
+          Let’s Talk
+        </a>
       </div>
-    </>
+    </header>
+
+  </>
   )
 }
