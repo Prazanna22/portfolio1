@@ -62,7 +62,7 @@ html {
       black 0,
       black 1px,
       transparent 1px,
-      transparent 4px);
+      transparent 2px);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px black;

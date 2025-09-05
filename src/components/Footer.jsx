@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import linkedin from '../assets/linkedin.png';
 import instagram from '../assets/instagram.png';
 import github from '../assets/github.png';
+import { GiTeapot } from 'react-icons/gi';
+import { TbTeapot } from 'react-icons/tb';
+import { BiCoffee } from 'react-icons/bi';
 
 
 export const Footer = () => {
@@ -95,7 +98,7 @@ export const Footer = () => {
   }, []);
 
   return (
-    <footer className="bw-footer">
+    <footer className="bw-footer px-8">
       <canvas ref={canvasRef} className="particle-canvas"></canvas>
       
       <div className="footer-content">
@@ -145,8 +148,8 @@ export const Footer = () => {
 
         {/* Fun tagline with typewriter effect */}
         <p className="footer-tagline" ref={lineRef}>
-          © {currentYear} Durga Prasanna U — Built with ☕ and way too many console.logs
-        </p>
+          © {currentYear} Durga Prasanna U — Built with coffee and way too many console.logs</p>
+        
 
         {/* Sarcastic quote */}
         <p className="footer-quote">

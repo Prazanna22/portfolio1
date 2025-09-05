@@ -116,12 +116,11 @@ export const About = () => {
           
           <div className="order-1 md:order-2 flex justify-center md:justify-end">
             <div className="relative w-full max-w-md">
-              {/* Image with proper border containment */}
               <div 
                 ref={frameRef}
-                className="absolute -inset-4 border-2 border-black rounded-lg opacity-0 transform translate-x-0 translate-y-0 transition-all duration-700 ease-out"
+                className="absolute -inset-2 border-2 border-black  mx-6 sm:mx-0 rounded-lg opacity-0 transform translate-x-0 translate-y-0 transition-all duration-700 ease-out"
               ></div>
-              <div className="relative rounded-lg overflow-hidden z-10">
+              <div className="relative rounded-lg overflow-hidden z-10 mx-6 sm:mx-0">
                 <img
                   ref={imageRef}
                   src={about}

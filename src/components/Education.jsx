@@ -74,7 +74,7 @@ export const Education = () => {
   return (
     <section
       ref={sectionRef}
-      className="py-16 md:py-40 bg-white"
+      className="py-16 md:py-40 px-5 md:px-0 bg-white"
       id="education"
     >
       <div className="max-w-7xl mx-auto">
@@ -163,10 +163,10 @@ export const Education = () => {
             {/* Timeline line */}
             <div 
               ref={timelineLineRef}
-              className="absolute left-6 h-full w-1 bg-black transition-all duration-1000 ease-out"
+              className="absolute left-2 h-full w-2 bg-black transition-all duration-1000 ease-out"
             ></div>
 
-            <div className="space-y-10 pl-14">
+            <div className="space-y-10 pl-10">
               {/* Item 1 */}
               <div 
                 ref={addToRefs}

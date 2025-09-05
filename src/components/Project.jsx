@@ -63,7 +63,7 @@ export const Project = () => {
 
   return (
     <>
-      <section id="projects" className="py-16 md:py-24" ref={sectionRef}>
+      <section id="projects" className="py-16 md:py-24  px-5 md:px-0" ref={sectionRef}>
         <div className="max-w-7xl mx-auto">
           <h1 
             ref={headingRef}

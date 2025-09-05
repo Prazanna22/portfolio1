@@ -74,7 +74,7 @@ export const Skills = () => {
 
   return (
     <>
-      <div className="py-10" id='3' ref={sectionRef}>
+      <div className="py-10  px-5 md:px-0" id='3' ref={sectionRef}>
         <div className="max-w-7xl mx-auto">
           <h1 
             ref={headingRef}

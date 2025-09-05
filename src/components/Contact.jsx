@@ -133,7 +133,7 @@ export const Contact = () => {
                         <div className="absolute bottom-0 left-1/4 w-72 h-72 border border-gray-400 rounded-full opacity-10 animate-pulse-fast"></div>
                     </div>
                     
-                    <div className="container mx-auto px-4 relative z-10">
+                    <div className="container mx-auto px-5 relative z-10">
                         <h2 
                             ref={headingRef}
                             className="text-4xl md:text-5xl font-bold text-center mb-4 uppercase tracking-wide opacity-0 transform -translate-y-6 transition-all duration-700 ease-out"
