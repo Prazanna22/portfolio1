@@ -38,23 +38,23 @@ export const Home = () => {
 
               {/* Animated name with typing effect */}
               <h1 className="font-extrabold text-[56px] py-4 md:py-2 uppercase sm:text-[80px] md:text-[100px] lg:text-[112px] three-d-text animate-fade-in-delay">
-  U Durga Prasanna
-</h1>
+                U Durga Prasanna
+              </h1>
 
-              <h2 className="text-base md:text-lg uppercase tracking-widest my-5 md:my-10 text-black animate-fade-in-delay">
+              <h2 className="text-base md:text-lg uppercase tracking-widest my-5 md:my-8 text-black animate-fade-in-delay">
                 Full-time dreamer, part-time debugger.
                 <br />
                 Somehow still building cool stuff.
               </h2>
 
               <h1 className="transition-all duration-1000 ease-out transform "></h1>
-              <button className="text-white font-medium border-2 border-black bg-black py-2 my-6 px-8 hover:bg-white hover:text-black transition-all duration-300 animate-fade-in-delay">
+              <button className="text-white font-medium border-2 border-black bg-black py-2 my-3 px-8 hover:bg-white hover:text-black transition-all duration-300 animate-fade-in-delay">
                 <a href="U.Durga_Prasanna.pdf" download="U.Durga_Prasanna.pdf"> Resume</a>
               </button>
 
               {/* Enhanced scroll indicator */}
               <a href="#1" className="group">
-                <div className="w-6 h-10 border-2 border-black rounded-full mt-8 flex justify-center items-start mx-auto animate-bounce cursor-pointer group-hover:scale-110 transition-transform">
+                <div className="w-6 h-10 border-2 border-black rounded-full mt-12 flex justify-center items-start mx-auto animate-bounce cursor-pointer group-hover:scale-110 transition-transform">
                   <div className="w-1 h-3 bg-black rounded-full mt-1 animate-pulse group-hover:bg-gray-600 transition-colors"></div>
                 </div>
                 <p className="text-xs mt-2 opacity-0 group-hover:opacity-70 transition-opacity">Explore more</p>
@@ -69,7 +69,7 @@ export const Home = () => {
               <div className="absolute bottom-4 right-4 w-16 h-16 border-b-2 border-r-2 border-black opacity-20"></div>
             </div>
 
-            
+
           </section>
 
 

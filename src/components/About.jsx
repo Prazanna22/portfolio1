@@ -72,7 +72,7 @@ export const About = () => {
 
   return (
     <div ref={sectionRef}>
-      <section className="py-20 px-5 sm:px-20 md:px-32" id="1">
+      <section className="py-10 px-5 sm:px-20 md:px-32" id="1">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className="order-2 md:order-1">
             <h1 
