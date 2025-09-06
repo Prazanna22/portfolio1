@@ -37,9 +37,9 @@ export const Home = () => {
               </h2>
 
               {/* Animated name with typing effect */}
-              <h1 className="font-extrabold text-[56px] py-4 md:py-2 uppercase sm:text-[80px] md:text-[100px] lg:text-[112px] crosshatch-flipped animate-fade-in-delay">
-                U Durga Prasanna
-              </h1>
+              <h1 className="font-extrabold text-[56px] py-4 md:py-2 uppercase sm:text-[80px] md:text-[100px] lg:text-[112px] three-d-text animate-fade-in-delay">
+  U Durga Prasanna
+</h1>
 
               <h2 className="text-base md:text-lg uppercase tracking-widest my-5 md:my-10 text-black animate-fade-in-delay">
                 Full-time dreamer, part-time debugger.

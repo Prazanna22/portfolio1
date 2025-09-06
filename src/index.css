@@ -57,17 +57,23 @@ html {
 }
 
 /* home */
-.crosshatch-flipped {
-  background: repeating-linear-gradient(45deg,
-      black 0,
-      black 1px,
-      transparent 1px,
-      transparent 2px);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px black;
-  transform: rotateX(360deg);
+
+
+.three-d-text {
+  color: #000;
+  text-shadow: 
+    1px 1px 0 #ccc,
+    2px 2px 0 #c9c9c9,
+    3px 3px 0 #bbb,
+    4px 4px 0 #b9b9b9,
+    5px 5px 0 #aaa,
+    6px 6px 1px rgba(0,0,0,0.1),
+    0 0 5px rgba(0,0,0,0.1),
+    1px 1px 3px rgba(0,0,0,0.3),
+    3px 3px 5px rgba(0,0,0,0.2);
+  transform: perspective(500px) rotateX(10deg);
 }
+
 
 
 @keyframes float {

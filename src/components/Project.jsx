@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react'
 import hearing from '../assets/hearing.png'
-import sneaker from '../assets/sneakers.png'
+import shoe from '../assets/shoe.png'
 import rain from '../assets/rain.png'
 import coffee from '../assets/coffee.png'
-import star from '../assets/stars.png'
+import motorbike from '../assets/motorbike.png'
 import news from '../assets/news.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/navigation';
@@ -93,18 +93,16 @@ export const Project = () => {
                     >
                         {/* Bike Rental App */}
                         <SwiperSlide>
-
                             <div className="flex flex-col justify-between items-center rounded-lg bg-white p-6 border-2 border-black h-[360px] transition-all duration-300 hover:shadow-lg ">
-
                                 <div className="flex flex-col items-center">
-                                    <img src={coffee} alt="" className="w-14 md:w-16 mb-4" />
+                                    <img src={motorbike} alt="" className="w-14 md:w-16 mb-4" />
                                     <h1 className="font-semibold text-xl mb-4 text-center">Bike Rental App</h1>
                                     <p className="font-normal text-gray-700 text-xs sm:text-sm text-justify leading-relaxed">
                                         A bike rental portal using React, Redux, Spring Boot, and MySQL. Implemented authentication, cart, and booking workflows with REST APIs, and designed a database schema to manage users, bikes, and rentals.
                                     </p>
                                 </div>
                                 <div className="flex gap-4 mt-6 text-center">
-                                    <a className="text-white font-medium border-2 border-black bg-black py-2 px-6 hover:bg-white hover:text-black transition-all duration-300 text-sm" href="https://apexmoto.netlify.app/">View</a>
+                                    <a className="text-white font-medium border-2 border-black bg-black py-2 px-6 hover:bg-white hover:text-black transition-all duration-300 text-sm" href="https://apexmoto.netlify.app/">Live</a>
                                     <a className="font-medium border-2 border-black bg-white text-black py-2 px-6 hover:bg-black hover:text-white transition-all duration-300 text-sm" href="https://github.com/Prazanna22/bike-rental-frontend">Github</a>
                                 </div>
                             </div>
@@ -121,7 +119,7 @@ export const Project = () => {
                                     </p>
                                 </div>
                                 <div className="flex gap-4 mt-6 text-center">
-                                    <a className="text-white font-medium border-2 border-black bg-black py-2 px-6 hover:bg-white hover:text-black transition-all duration-300 text-sm" href="https://newslyapp111.netlify.app/">View</a>
+                                    <a className="text-white font-medium border-2 border-black bg-black py-2 px-6 hover:bg-white hover:text-black transition-all duration-300 text-sm" href="https://newslyapp111.netlify.app/">Live</a>
                                     <a className="font-medium border-2 border-black bg-white text-black py-2 px-6 hover:bg-black hover:text-white transition-all duration-300 text-sm" href="https://github.com/Prazanna22/News-App">Github</a>
                                 </div>
                             </div>
@@ -132,47 +130,49 @@ export const Project = () => {
                             <div className="flex flex-col justify-between items-center rounded-lg bg-white p-6 border-2 border-black h-[360px] transition-all duration-300 hover:shadow-lg ">
                                 <div className="flex flex-col items-center">
                                     <img src={coffee} alt="" className="w-14 md:w-16 mb-4" />
-                                    <h1 className="font-semibold text-xl mb-4 text-center">Coffee Shop Website</h1>
+                                    <h1 className="font-semibold text-xl mb-4 text-center">Coffee Shop Ecommerce Website</h1>
                                     <p className="font-normal text-gray-700 text-sm text-justify leading-relaxed">
                                         Developed a dynamic coffee shop website using React and Tailwind CSS, featuring responsive design and a fully functional frontend cart system using React's Context Hook.
                                     </p>
                                 </div>
                                 <div className="flex gap-4 mt-6 text-center">
-                                    <a className="text-white font-medium border-2 border-black bg-black py-2 px-6 hover:bg-white hover:text-black transition-all duration-300 text-sm" href="https://durzan.netlify.app/">View</a>
+                                    <a className="text-white font-medium border-2 border-black bg-black py-2 px-6 hover:bg-white hover:text-black transition-all duration-300 text-sm" href="https://durzan.netlify.app/">Live</a>
                                     <a className="font-medium border-2 border-black bg-white text-black py-2 px-6 hover:bg-black hover:text-white transition-all duration-300 text-sm" href="https://github.com/Prazanna22/CoffeeShop">Github</a>
                                 </div>
                             </div>
                         </SwiperSlide>
 
                         {/* Nike Website */}
-                        <SwiperSlide>
+                         <SwiperSlide>
                             <div className="flex flex-col justify-between items-center rounded-lg bg-white p-6 border-2 border-black h-[360px] transition-all duration-300 hover:shadow-lg ">
                                 <div className="flex flex-col items-center">
-                                    <img src={sneaker} alt="" className="w-14 md:w-16 mb-4" />
-                                    <h1 className="font-semibold text-xl mb-4 text-center">Nike Website</h1>
+                                    <img src={shoe} alt="" className="w-14 md:w-16 mb-4" />
+                                    <h1 className="font-semibold text-xl mb-4 text-center">Nike Ecommerce Website</h1>
                                     <p className="font-normal text-gray-700 text-sm text-justify leading-relaxed">
-                                        Developed a Nike UI website using React and Tailwind CSS. Demonstrates expertise in responsive design, interactive components, and efficient styling with Tailwind.
+                                     Developed a Nike UI website using React and Tailwind CSS. Demonstrates expertise in responsive design, interactive components, and efficient styling with Tailwind.
                                     </p>
                                 </div>
                                 <div className="flex gap-4 mt-6 text-center">
-                                    <a className="text-white font-medium border-2 border-black bg-black py-2 px-6 hover:bg-white hover:text-black transition-all duration-300 text-sm" href="https://nike-webpage-1.netlify.app">View</a>
+                                    <a className="text-white font-medium border-2 border-black bg-black py-2 px-6 hover:bg-white hover:text-black transition-all duration-300 text-sm" href="https://nike-webpage-1.netlify.app">Live</a>
                                     <a className="font-medium border-2 border-black bg-white text-black py-2 px-6 hover:bg-black hover:text-white transition-all duration-300 text-sm" href="https://github.com/Prazanna22/Nike">Github</a>
                                 </div>
                             </div>
                         </SwiperSlide>
 
+                    
+
                         {/* Live Weather App */}
                         <SwiperSlide>
                             <div className="flex flex-col justify-between items-center rounded-lg bg-white p-6 border-2 border-black h-[360px] transition-all duration-300 hover:shadow-lg ">
                                 <div className="flex flex-col items-center">
-                                    <img src={coffee} alt="" className="w-14 md:w-16 mb-4" />
+                                    <img src={rain} alt="" className="w-14 md:w-16 mb-4" />
                                     <h1 className="font-semibold text-xl mb-4 text-center">Live Weather App</h1>
                                     <p className="font-normal text-gray-700 text-sm text-justify leading-relaxed">
                                         A dynamic live weather app built with React and the OpenWeather API that provides real-time weather updates, including temperature, humidity, and conditions.
                                     </p>
                                 </div>
                                 <div className="flex gap-4 mt-6 text-center">
-                                    <a className="text-white font-medium border-2 border-black bg-black py-2 px-6 hover:bg-white hover:text-black transition-all duration-300 text-sm" href="https://thriving-puffpuff-131b86.netlify.app">View</a>
+                                    <a className="text-white font-medium border-2 border-black bg-black py-2 px-6 hover:bg-white hover:text-black transition-all duration-300 text-sm" href="https://thriving-puffpuff-131b86.netlify.app">Live</a>
                                     <a className="font-medium border-2 border-black bg-white text-black py-2 px-6 hover:bg-black hover:text-white transition-all duration-300 text-sm" href="https://github.com/Prazanna22/Weather-app">Github</a>
                                 </div>
                             </div>

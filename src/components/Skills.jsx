@@ -78,7 +78,7 @@ export const Skills = () => {
         <div className="max-w-7xl mx-auto">
           <h1 
             ref={headingRef}
-            className="font-extrabold text-4xl md:text-5xl text-black uppercase text-center mb-4 opacity-0 transform -translate-y-6 transition-all duration-700 ease-out"
+            className="font-extrabold text-4xl md:text-5xl text-black uppercase text-center mb-4 opacity-0 transform -translate-y-6 transition-all duration-500 ease-out"
           >
             Skills
           </h1>

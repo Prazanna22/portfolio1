@@ -77,17 +77,17 @@ export const About = () => {
           <div className="order-2 md:order-1">
             <h1 
               ref={headingRef}
-              className="font-extrabold text-4xl text-black mb-6 uppercase opacity-0 transform translate-y-6 transition-all duration-700 ease-out"
+              className="font-extrabold text-4xl text-black mb-6 uppercase opacity-0 transform translate-y-6 transition-all duration-400 ease-out"
             >
               About Me
             </h1>
             <div 
               ref={dividerRef}
-              className="h-1 w-0 bg-black mb-8 transition-all duration-1000 ease-out"
+              className="h-1 w-0 bg-black mb-8 transition-all duration-600 ease-out"
             ></div>
             <p 
               ref={addToRefs}
-              className="font-normal text-gray-700 text-justify text-md md:text-md leading-relaxed lg:leading-8 mb-6 opacity-0 transform translate-y-6 transition-all duration-700 ease-out"
+              className="font-normal text-gray-400 text-justify text-md md:text-md leading-relaxed lg:leading-8 mb-6 opacity-0 transform translate-y-6 transition-all duration-400 ease-out"
             >
               Hey, I'm <span className="font-semibold">Durga Prasanna U</span> — a Computer Science graduate who
               somehow survived Java, Spring Boot, and endless debugging sessions. I spend most of my time
@@ -96,7 +96,7 @@ export const About = () => {
 
             <p 
               ref={addToRefs}
-              className="font-normal text-gray-700 text-justify text-md md:text-md leading-relaxed lg:leading-8 mb-6 opacity-0 transform translate-y-6 transition-all duration-700 ease-out"
+              className="font-normal text-gray-400 text-justify text-md md:text-md leading-relaxed lg:leading-8 mb-6 opacity-0 transform translate-y-6 transition-all duration-400 ease-out"
             >
               I've worked on fun stuff like a <span className="font-semibold">Bike Rental App</span> (yes, with
               actual bookings), a <span className="font-semibold">Coffee Shop E-Commerce Site</span>  (fueled by too
@@ -107,7 +107,7 @@ export const About = () => {
 
             <p 
               ref={addToRefs}
-              className="font-normal text-gray-700 text-justify text-md md:text-md leading-relaxed lg:leading-8 mb-6 opacity-0 transform translate-y-6 transition-all duration-700 ease-out"
+              className="font-normal text-gray-400 text-justify text-md md:text-md leading-relaxed lg:leading-8 mb-6 opacity-0 transform translate-y-6 transition-all duration-400 ease-out"
             >
               When I'm not coding, I'm probably breaking something so I can "fix" it better. Looking for the next
               place where I can turn coffee into code, bugs into features, and ideas into cool projects.
@@ -118,14 +118,14 @@ export const About = () => {
             <div className="relative w-full max-w-md">
               <div 
                 ref={frameRef}
-                className="absolute -inset-2 border-2 border-black  mx-6 sm:mx-0 rounded-lg opacity-0 transform translate-x-0 translate-y-0 transition-all duration-700 ease-out"
+                className="absolute -inset-2 border-2 border-black  mx-6 sm:mx-0 rounded-lg opacity-0 transform translate-x-0 translate-y-0 transition-all duration-400 ease-out"
               ></div>
               <div className="relative rounded-lg overflow-hidden z-10 mx-6 sm:mx-0">
                 <img
                   ref={imageRef}
                   src={about}
                   alt="Durga Prasanna"
-                  className="w-full h-auto rounded-lg opacity-0 transform scale-95 transition-all duration-700 ease-out"
+                  className="w-full h-auto rounded-lg opacity-0 transform scale-95 transition-all duration-400 ease-out"
                 />
               </div>
             </div>

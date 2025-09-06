@@ -136,7 +136,7 @@ export const Contact = () => {
                     <div className="container mx-auto px-5 relative z-10">
                         <h2 
                             ref={headingRef}
-                            className="text-4xl md:text-5xl font-bold text-center mb-4 uppercase tracking-wide opacity-0 transform -translate-y-6 transition-all duration-700 ease-out"
+                            className="text-4xl md:text-5xl font-bold text-center mb-4 uppercase tracking-wide opacity-0 transform -translate-y-6 transition-all duration-400 ease-out"
                         >
                             Contact
                         </h2>
@@ -149,11 +149,11 @@ export const Contact = () => {
                             {/* Left side - Illustration and info */}
                             <div 
                                 ref={leftContentRef}
-                                className="space-y-8 opacity-0 transform -translate-x-8 transition-all duration-700 ease-out"
+                                className="space-y-8 opacity-0 transform -translate-x-8 transition-all duration-400 ease-out"
                             >
                                 <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
                                     <h3 className="text-2xl font-semibold mb-6">Slide Into My Inbox</h3>
-                                    <p className="text-gray-700 max-w-md">
+                                    <p className="text-gray-400 max-w-md">
                                         Collaborations, questions, or random "hi"—all are welcome.
                                         I'll get back to you faster than your Wi-Fi reconnects after a router reset.
                                     </p>
@@ -200,7 +200,7 @@ export const Contact = () => {
                             {/* Right side - Contact Form */}
                             <div 
                                 ref={rightContentRef}
-                                className="bg-gray-50 rounded-xl p-8 border border-gray-200 shadow-sm opacity-0 transform translate-x-8 transition-all duration-700 ease-out"
+                                className="bg-gray-50 rounded-xl p-8 border border-gray-200 shadow-sm opacity-0 transform translate-x-8 transition-all duration-400 ease-out"
                             >
                                 <form ref={form} onSubmit={sendEmail} className="space-y-6">
                                     <div className="relative">
